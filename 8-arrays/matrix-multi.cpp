@@ -57,9 +57,8 @@ int main()
         for (j = 0; j < c2; ++j)
         {
             cout << " " << c[i][j];
-            if (j == c2 - 1)
-                cout << endl;
         }
+        cout << endl;
     }
     return 0;
 }
